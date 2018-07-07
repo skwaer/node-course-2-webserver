@@ -24,9 +24,9 @@ app.use((req, res, next) => {
 });
 
 // MAKE MAINTENANCE MODE HAPPEN
-app.use((req, res, next) => {
-	res.render('maintenance.hbs');
-});
+// app.use((req, res, next) => {
+// 	res.render('maintenance.hbs');
+// });
 
 // OPEN UP PUBLIC STUFF
 app.use(express.static(__dirname + '/public'));
